@@ -2,7 +2,7 @@
 API to fetch data from LokDhaba
 
 The following needs to be included in the docker compose files
-'''
+```
 
   web:
     build: ./Lokdhaba_dj
@@ -15,4 +15,4 @@ The following needs to be included in the docker compose files
     links :
     - db
 
-'''
+```
